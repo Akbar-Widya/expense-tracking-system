@@ -94,7 +94,6 @@ const SignUp = () => {
                </Link>
             </p>
          </form>
-         <div className="h-[2000px]"></div>
       </AuthLayout>
    );
 };
