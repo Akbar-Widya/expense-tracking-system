@@ -1,0 +1,10 @@
+import { getInitials } from "../../utils/helper";
+
+const CharAvatar = ({ fullName, width, height, style }) => {
+  return (
+    <div className={`${width || 'w-12'} ${height || 'h12'} ${style || ''} flex items-center justify-center rounded-full text-gray-00 font-medium bg-gray-100`}>
+      {getInitials(fullName || "")}
+    </div>
+  )
+}
+export default CharAvatar
