@@ -31,7 +31,7 @@ const CustomPieCharts = ({
             >
                {data.map((entry, index) => (
                   <Cell
-                     key={`cell-${index}`}
+                     key={`cell-${entry.name}`}
                      fill={colors[index % colors.length]}
                   />
                ))}
