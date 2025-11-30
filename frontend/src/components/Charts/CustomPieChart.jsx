@@ -9,7 +9,7 @@ import {
 import CustomTooltip from "./CustomTooltip";
 import CustomLegend from "./CustomLegend";
 
-const CustomPieCharts = ({
+const CustomPieChart = ({
    data,
    label,
    totalAmount,
@@ -68,4 +68,4 @@ const CustomPieCharts = ({
       </ResponsiveContainer>
    );
 };
-export default CustomPieCharts;
+export default CustomPieChart;
