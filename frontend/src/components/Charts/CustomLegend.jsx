@@ -3,7 +3,7 @@ const CustomLegend = ({ payload }) => {
       <div className="flex flex-wrap justify-center gap-2 mt-4 space-x-6">
          {payload.map((entry, index) => (
             <div
-               key={`legend-${index}`}
+               key={`legend-${entry}`}
                className="flex items-center space-x-2"
             >
                <div 
