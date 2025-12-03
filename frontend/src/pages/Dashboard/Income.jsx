@@ -20,9 +20,6 @@ const Income = () => {
       data: null,
    });
 
-   console.log("alert data:",openDeleteAlert.data);
-   console.log("income data:",incomeData)
-
    const [openAddIncomeModal, setOpenAddIncomeModal] = useState(false);
 
    // Get All Income Details
