@@ -18,7 +18,6 @@ const SignUp = () => {
    const [error, setError] = useState(null);
 
    const { updateUser } = useContext(UserContext);
-
    const navigate = useNavigate();
 
    const handleSignUp = async (e) => {
@@ -78,7 +77,7 @@ const SignUp = () => {
    
    return (
       <AuthLayout>
-         <div className="lg:w-[100%] h-auto md:h-full mt-10 md:mt-0 flex flex-col justify-content">
+         <div className="lg:w-[100%] h-auto md:h-full mt-10 md:mt-0 flex flex-col justify-center">
             <h3 className="text-xl font-semibold text-black">
                Create an Account
             </h3>
