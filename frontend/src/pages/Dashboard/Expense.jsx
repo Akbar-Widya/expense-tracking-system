@@ -115,10 +115,10 @@ const Expense = () => {
 
                <ExpenseList
                   transactions={expenseData}
-                  onDelete={(expenseId) => {
+                  onDelete={(id) => {
                      setOpenDeleteAlert({
                         show: true,
-                        data: expenseId,
+                        data: id,
                      });
                   }}
                   onDownload={handleDownloadExpenseDetails}
